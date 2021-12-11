@@ -1,10 +1,10 @@
 <?php
 
 $dsn = "Driver={SQL Server};
-Server=DESKTOP-8LABJ82;Database=devClothes ;Integrated Security=SSPI;Persist Security Info=False;";
+Server=******* ;Integrated Security=SSPI;Persist Security Info=False;";
 //debe ser de sistema no de usuario
-$usuario = "joshua";
-$clave="hola";
+$usuario = "*****";
+$clave="*****";
 
 //realizamos la conexion mediante odbc
 $db=odbc_connect($dsn, $usuario, $clave);
