@@ -1,0 +1,34 @@
+:root {
+    --primario: rgba(120, 116, 204, 0.7);
+    --primarioOscuro: #89119D;
+    --secundario: #FFFF;
+    --secundarioOscuro: rgb(233, 187, 2);
+    --blanco: #FFF;
+    --negro: #000;
+
+    --fuentePrincipal: 'Staatliches', cursive;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/** Globales **/
+body {
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+nav{
+    color:white;
+}
+.bg-secundario{
+    background-color: var(--secundario);
+}
+.color-bl{
+    color:black !important;
+}
